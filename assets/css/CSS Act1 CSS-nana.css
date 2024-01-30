@@ -1,0 +1,36 @@
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Arial;
+}
+
+thead{
+    background-color: rgb(248, 131, 118);
+    color: white;
+}
+
+th{
+    padding: 20px;
+}
+/* WHy does it have to be "th" not "thead"? */
+
+td{
+    padding: 3px 20px;
+}
+/* WHy does it have to be "td" not "tbody"? */
+
+img{
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+}
+
+.odd{
+    background-color: rgb(247, 209, 166)
+}
+
+#email{
+    color: blue;
+}
+/* Can I do the same with class not id? */
